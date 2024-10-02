@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROGRAMA01</title>
+</head>
+<body>
+    <script>
+
+        function pulaLinha()
+        {document.Write('<br>')} 
+            
+        let ano = 2024
+        const minhaIdade = ano - 2008
+        const maeIdade = ano - 1974
+        const paiIdade = ano - 1965
+
+
+        document.write(`oi, meu nome e lucas e tenho ${minhaIdade} anos`)
+        pulaLinha()
+
+        document.write(`minha mãe se chama Clarice e tem ${maeIdade}  anos`)
+        pulaLinha()
+
+        document.write(`meu pai se chama Paulo e tem ${paiIdade} anos`)
+        pulaLinha()
+
+
+        ano = 2030
+
+        document.write(' em 2030 minha familia tera: ' + '<br><br>')
+
+        document.write(` Eu terei ${ano - 2008} anos <br>`)
+
+        document.write(`Minha mãe terá ${ano - 1974} anos <br>`)
+
+        document.write(`Meu pai terá ${ano - 1965} anos  <br>`)
+
+        let media = (minhaIdade + maeIdade + paiIdade) /3
+
+        document.write(` A média de idade é : ${media} <br>`)
+
+
+      </script>
+</body>
+</html>
